@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: false },
   nitro: {
-    preset: "deno",
+    preset: "azure",
     experimental: {
       wasm: true,
     },

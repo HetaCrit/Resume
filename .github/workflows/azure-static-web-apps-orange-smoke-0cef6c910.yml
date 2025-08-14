@@ -32,8 +32,8 @@ jobs:
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # Keep as root
-          output_location: ".output/public" # This should work
-          skip_app_build: false
+          output_location: "public" # This should work
+          skip_app_build: true
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:

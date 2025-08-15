@@ -34,5 +34,14 @@
 </script>
 
 <template>
-  <UApp> hello world </UApp>
+  <UApp>
+    <NuxtLayout>
+      <UMain class="relative">
+        <HeroBackground
+          class="absolute w-full -top-px transition-all text-primary shrink-0"
+        />
+        <NuxtPage />
+      </UMain>
+    </NuxtLayout>
+  </UApp>
 </template>
